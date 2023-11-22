@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HICP Hello World</title>
+    <script src="/animation/gsap-latest-beta.min.js" defer></script>
+    <script src="/animation/effect.js" defer></script>
+    <link rel="stylesheet" href="/animation/style.css">
+</head>
+<body>
+<div class="container">
+    <img src="/hicp.svg" alt="HICP Logo"/>
+    <p>Congratulations! You successfully deployed your sample application!</p>
+</div>
+<svg id="demo" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0" color-interpolation="sRGB">
+      <stop id="stop1a" offset="0%" stop-color="#66a43b"></stop>
+      <stop id="stop1b" offset="100%" stop-color="#000000"></stop>
+    </linearGradient>
+  </defs>
+  <rect id="rect1" x="0" y="0" width="1600" height="600" stroke="none" fill="url(#grad1)"></rect>
+</svg>
+</body>
+</html>
